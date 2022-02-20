@@ -16,6 +16,7 @@ if %operation%==- goto unhide
 :hide
 attrib +r +h +s %filename%
 echo %filename% is made hidden
+pause
 exit
 
 :unhide
