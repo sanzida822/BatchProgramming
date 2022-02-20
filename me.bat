@@ -1,3 +1,4 @@
+rem question 1
 @echo off
 @setlocal EnableDelayedExpansion EnableExtensions
 set /p input=
