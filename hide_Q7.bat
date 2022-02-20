@@ -1,5 +1,5 @@
 @ECHO OFF
-title Lock a file
+title Hide or make visible a file
 set /p input=
 
 for /f "tokens=3 delims= " %%a in ("%input%") Do (
